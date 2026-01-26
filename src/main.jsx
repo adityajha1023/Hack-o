@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Layout from './Layout.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Home from './blocks/Home.jsx'
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true, // This is the default child route for the parent path "/"
-        element: <App />,
+        element: <Home />,
       },
     ]
   }

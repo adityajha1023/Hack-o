@@ -1,3 +1,10 @@
 body{
-    background-color: #fff;
+  background-color: #fff;
+}
+.hero{
+  margin: 0;
+  background-image: url("./assets/background.jpeg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
