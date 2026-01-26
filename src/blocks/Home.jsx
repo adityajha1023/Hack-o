@@ -36,7 +36,7 @@ function Home() {
     }, []);
 
     return (
-        <div className="min-h-[50vh] bg-white">
+        <div data-nav-theme="light" className="min-h-[50vh] bg-white">
             <App />
             {/* Spacer for scroll */}
             <div className="h-[10vh]"></div>

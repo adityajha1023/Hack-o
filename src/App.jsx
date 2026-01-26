@@ -7,8 +7,8 @@ function App() {
 
   return (
   <div className='hero h-[100vh] w-full text-white px-20 py-10 flex flex-row justify-between'>
-    <div className='h-[90vh] w-[50%] flex flex-col justify-end'>
-      <h1 className='text-h1 font-semibold mt-32'>Hack O’Clock 2.0</h1>
+    <div className='h-[90vh] w-[50%] flex flex-col justify-end -mt-5'>
+      <h1 className='text-h1 font-semibold'>Hack O’Clock 2.0</h1>
       <h3 className='text-h5 font-normal'>Build. Innovate. Hack the Future.</h3>
       <div className='flex flex-row gap-2 py-4'>
         <a href="#" className='py-2 px-4 bg-white text-black font-semibold border border-[rgba(0,0,0,0.1)] hover:scale-105 transition-all duration-300 rounded-full'>Register Now</a>
