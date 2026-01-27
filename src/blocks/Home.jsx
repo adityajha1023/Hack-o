@@ -1,13 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import App from '../App.jsx';
 import { MoveRight } from 'lucide-react';
+import HowItWorks from './HowItWorks.jsx';
 
 function Home() {
     const textRef = useRef(null);
     const containerRef = useRef(null);
     const [scrollProgress, setScrollProgress] = useState(0);
 
-    const text = "Hack O'Clock 2.0 is a high-impact hackathon bridging academic learning with real-world tech challenges. Teams collaborate with industry mentors, use modern tools and APIs, and present to expert judges, while sponsors connect with top emerging talent. More than a hackathon, it's a launchpad for careers, products, and innovation.";
+    const text = "Hack O'Clock 2.0 is a high-impact hackathon bridging academic learning with real-world tech challenges. Teams collaborate with industry mentors, use modern tools and APIs, and present to expert HowItWorks, while sponsors connect with top emerging talent. More than a hackathon, it's a launchpad for careers, products, and innovation.";
     
     const words = text.split(' ');
 
@@ -36,7 +37,7 @@ function Home() {
     }, []);
 
     return (
-        <div data-nav-theme="light" className="min-h-[50vh] bg-white">
+        <div data-nav-theme="light" className="min-h-[50vh] bg-[#F5F4F5]">
             <App />
             {/* Spacer for scroll */}
             <div className="h-[10vh]"></div>
@@ -70,10 +71,8 @@ function Home() {
                 </div>
                 </div>
             </div>
-            
-            {/* Spacer for scroll */}
-            <div className="h-[10vh]">
-            </div>
+
+            <HowItWorks />
         </div>
     );
 }
