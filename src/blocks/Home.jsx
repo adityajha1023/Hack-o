@@ -2,13 +2,14 @@ import React, { useEffect, useRef, useState } from 'react';
 import App from '../App.jsx';
 import { MoveRight } from 'lucide-react';
 import HowItWorks from './HowItWorks.jsx';
+import Judges from './Judges.jsx';
 
 function Home() {
     const textRef = useRef(null);
     const containerRef = useRef(null);
     const [scrollProgress, setScrollProgress] = useState(0);
 
-    const text = "Hack O'Clock 2.0 is a high-impact hackathon bridging academic learning with real-world tech challenges. Teams collaborate with industry mentors, use modern tools and APIs, and present to expert HowItWorks, while sponsors connect with top emerging talent. More than a hackathon, it's a launchpad for careers, products, and innovation.";
+    const text = "Hack O'Clock 2.0 is a high-impact hackathon bridging academic learning with real-world tech challenges. Teams collaborate with industry mentors, use modern tools and APIs, and present to expert Judges, while sponsors connect with top emerging talent. More than a hackathon, it's a launchpad for careers, products, and innovation.";
     
     const words = text.split(' ');
 
@@ -45,7 +46,7 @@ function Home() {
             <div ref={containerRef} className='flex flex-row justify-between items-start min-h-[100vh] px-20 py-10'>
                 <p className='mt-16 font-bold text-red-700 uppercase'>about</p>
                 <div className='w-[75%] flex-col justify-center items-center'>
-                <h1 ref={textRef} className='mt-16 text-h3 w-full font-semibold tracking-tight leading-relaxed'>
+                <h1 ref={textRef} className='mt-16 text-h3 w-full font-semibold leading-relaxed'>
                     {words.map((word, index) => {
                         const wordProgress = (scrollProgress * words.length) - index;
                         const opacity = Math.max(0, Math.min(1, wordProgress));
@@ -73,6 +74,7 @@ function Home() {
             </div>
 
             <HowItWorks />
+            <Judges />
         </div>
     );
 }
