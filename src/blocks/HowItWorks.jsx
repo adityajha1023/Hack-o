@@ -13,7 +13,7 @@ function HowItWorks() {
                 {/* Card 1 */}
                 <div className="bg-white py-6 px-8 rounded-3xl w-full lg:max-w-[25rem] flex flex-col gap-6 shadow-md">
                     <span className="flex items-center gap-2 font-semibold text-p">
-                        <NotebookPen color="#FF3300" fill="#FFC2B3" />
+                        <NotebookPen color="#E10600" fill='#fff' />
                         Registration
                     </span>
 
@@ -25,7 +25,7 @@ function HowItWorks() {
                 {/* Card 2 */}
                 <div className="bg-white py-6 px-8 rounded-3xl w-full lg:max-w-[25rem] flex flex-col gap-6 shadow-md">
                     <span className="flex items-center gap-2 font-semibold text-p">
-                        <MousePointerClick color="#FF3300" fill="#FFC2B3" />
+                        <MousePointerClick color="#E10600" fill='#fff' />
                         Shortlisting
                     </span>
 
@@ -37,7 +37,7 @@ function HowItWorks() {
                 {/* Card 3 */}
                 <div className="bg-white py-6 px-8 rounded-3xl w-full lg:max-w-[25rem] flex flex-col gap-6 shadow-md">
                     <span className="flex items-center gap-2 font-semibold text-p">
-                        <Ribbon color="#FF3300" fill="#FFC2B3" />
+                        <Ribbon color="#E10600" fill='#fff' />
                         Final Hackathon
                     </span>
 
