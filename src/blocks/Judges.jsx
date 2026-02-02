@@ -52,7 +52,7 @@ function JudgeCard({ img, name }) {
     >
       {/* Red Shape */}
       <div className="absolute inset-0">
-        <div className="absolute top-0 right-0 w-full h-[90%] bg-[#E10600] rounded-tr-[180px]" />
+        <div className="absolute top-0 right-0 w-full h-[100%] bg-[#E10600] rounded-tr-[180px]" />
       </div>
 
       {/* Image */}

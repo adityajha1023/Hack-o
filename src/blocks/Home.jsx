@@ -10,7 +10,7 @@ function Home() {
     const [scrollProgress, setScrollProgress] = useState(0);
 
     const text =
-        "Hack O'Clock 2.0 is a high-impact hackathon bridging academic learning with real-world tech challenges. Teams collaborate with industry mentors, use modern tools and APIs, and present to expert Judges, while sponsors connect with top emerging talent. More than a hackathon, it's a launchpad for careers, products, and innovation.";
+        "Hack O'Clock 2.0 is a high-impact hackathon connecting academic learning with real-world tech challenges—bringing teams, mentors, judges, and sponsors together to build, innovate, and launch careers.";
 
     const words = text.split(' ');
 
@@ -46,10 +46,10 @@ function Home() {
             {/* ABOUT SECTION */}
             <section
                 ref={containerRef}
-                className="flex flex-col lg:flex-row gap-10 lg:gap-0 px-6 sm:px-10 lg:px-20 py-10 justify-between lg:min-h-[100vh]"
+                className="flex flex-col lg:flex-row gap-10 lg:gap-0 px-6 sm:px-10 lg:px-20 py-10 justify-between lg:min-h-[80vh]"
             >
                 {/* Left label */}
-                <p className="mt-6 lg:mt-16 font-bold text-red-700 uppercase text-p">
+                <p className="mt-6 lg:mt-16 font-bold text-[#E10600] uppercase text-p">
                     about
                 </p>
 
@@ -79,24 +79,24 @@ function Home() {
                     </h1>
 
                     {/* Event details */}
-                    <p className="mt-10 font-bold text-red-700 uppercase flex items-center gap-2 text-p">
+                    <p className="mt-10 font-bold text-[#E10600] uppercase flex items-center gap-2 text-p">
                         event details <MoveRight />
                     </p>
 
                     {/* Stats */}
                     <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-6 mt-6">
                         <p className="text-h6 font-medium p-5 border rounded-md shadow-sm w-full sm:w-auto">
-                            <span className="font-semibold text-red-700">100+</span> Teams expected to
+                            <span className="font-semibold text-[#E10600]">100+</span> Teams expected to
                             <br /> participate in the Hackathon
                         </p>
 
                         <p className="text-h6 font-medium p-5 border rounded-md shadow-sm w-full sm:w-auto">
-                            <span className="font-semibold text-red-700">80</span> Teams will qualify
+                            <span className="font-semibold text-[#E10600]">80</span> Teams will qualify
                             <br /> for the on-campus final round
                         </p>
 
                         <p className="text-h6 font-medium p-5 border rounded-md shadow-sm w-full sm:w-auto">
-                            <span className="font-semibold text-red-700">60</span> Teams will stay
+                            <span className="font-semibold text-[#E10600]">60</span> Teams will stay
                             overnight for the
                             <br />
                             <span className="font-semibold">24-Hour</span> Hackathon Experience

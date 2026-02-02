@@ -4,14 +4,14 @@ import React from 'react'
 function HowItWorks() {
     return (
         <section className="flex flex-col gap-8 px-6 sm:px-10 lg:px-20 py-10">
-            <p className="mt-10 sm:mt-16 font-bold text-red-700 uppercase">
+            <p className="mt-10 sm:mt-16 font-bold text-[#E10600] uppercase">
                 how it works ?
             </p>
 
             <div className="flex flex-col lg:flex-row justify-center items-stretch gap-10 w-full">
                 
                 {/* Card 1 */}
-                <div className="bg-white py-6 px-8 rounded-3xl w-full lg:max-w-[25rem] flex flex-col gap-6 shadow-md">
+                <div className="bg-white py-6 px-8 rounded-3xl w-full lg:max-w-[25rem] h-[25rem] flex flex-col gap-6 shadow-md">
                     <span className="flex items-center gap-2 font-semibold text-p">
                         <NotebookPen color="#E10600" fill='#fff' />
                         Registration
@@ -23,7 +23,7 @@ function HowItWorks() {
                 </div>
 
                 {/* Card 2 */}
-                <div className="bg-white py-6 px-8 rounded-3xl w-full lg:max-w-[25rem] flex flex-col gap-6 shadow-md">
+                <div className="bg-white py-6 px-8 rounded-3xl w-full lg:max-w-[25rem] h-[25rem] flex flex-col gap-6 shadow-md">
                     <span className="flex items-center gap-2 font-semibold text-p">
                         <MousePointerClick color="#E10600" fill='#fff' />
                         Shortlisting
@@ -35,7 +35,7 @@ function HowItWorks() {
                 </div>
 
                 {/* Card 3 */}
-                <div className="bg-white py-6 px-8 rounded-3xl w-full lg:max-w-[25rem] flex flex-col gap-6 shadow-md">
+                <div className="bg-white py-6 px-8 rounded-3xl w-full lg:max-w-[25rem] h-[25rem] flex flex-col gap-6 shadow-md">
                     <span className="flex items-center gap-2 font-semibold text-p">
                         <Ribbon color="#E10600" fill='#fff' />
                         Final Hackathon
@@ -49,7 +49,7 @@ function HowItWorks() {
                     <div className="flex-grow" />
 
                     <h3 className="text-h5 text-black/50 font-medium">
-                        Final presentations to <span className="text-red-700">Judges</span>
+                        Final presentations to <span className="text-[#E10600]">Judges</span>
                     </h3>
                 </div>
 
