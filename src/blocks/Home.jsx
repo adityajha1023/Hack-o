@@ -3,6 +3,7 @@ import App from '../App.jsx';
 import { MoveRight } from 'lucide-react';
 import HowItWorks from './HowItWorks.jsx';
 import Judges from './Judges.jsx';
+import FAQ from './faq.jsx';
 
 function Home() {
     const textRef = useRef(null);
@@ -110,9 +111,11 @@ function Home() {
                     </div>
                 </div>
             </section>
-
             <HowItWorks />
+            <div className='bg-[#000001]'>
             <Judges />
+            <FAQ />
+            </div>
         </div>
     );
 }

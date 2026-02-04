@@ -18,7 +18,7 @@ function Judges() {
       </h1>
 
       {/* Subtext */}
-      <p className="text-xs sm:text-p text-white/90 -mt-4 mb-6 max-w-2xl">
+      <p className="text-p text-white/90 -mt-4 mb-6 max-w-2xl">
         Learn from the minds shaping the tech industry. This is your chance to present your work to people who actually build and hire.
       </p>
 
